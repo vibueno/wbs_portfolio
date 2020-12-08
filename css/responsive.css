@@ -30,12 +30,12 @@
   .about-me {
     grid-column: 1 / 5;
     grid-template-rows: 5em 1fr;
-    grid-template-columns: repeat(3, 1fr), 50px;
+    grid-template-columns: 1fr, 50px;
   }
 
   .about-me-text {
     grid-row: 2 / 2;
-    grid-column: 1 / 4;
+    grid-column: 1 / 1;
     margin: 0 1vw 0 3vw;
     padding: 0 1em 0 0;
     font-size: 1.25em;
@@ -48,7 +48,7 @@
 
   .about-me-pic-container {
     grid-row: 2 / 2;
-    grid-column: 4 / 5;
+    grid-column: 2 / 2;
     justify-content: flex-end;
     align-items: flex-start;
   }
